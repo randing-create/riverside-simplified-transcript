@@ -1,0 +1,14 @@
+interface:
+  display_name: Edit Long Interviews
+  short_description: Edit long interviews with timed bilingual captions
+  default_prompt: Use $edit-long-interview to turn this recording and captions into
+    a review-ready long video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
